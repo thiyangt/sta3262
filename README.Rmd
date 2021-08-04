@@ -1,0 +1,56 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# sta3262
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of sta3262 is to ...
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("thiyangt/sta3262")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(sta3262)
+## basic example code
+mydata <- get_assignment1_data("AS2018000")
+```
+
+## Data Description
+
+```{r a}
+summary(mydata)
+```
+
+## Data Visualization
+
+
+```{r b}
+confirmed <- mydata[mydata$type == "confirmed",]
+library(ggplot2)
+qplot(data=confirmed, x=date, y=type, geom="line")
+```
+
