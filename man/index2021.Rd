@@ -7,7 +7,7 @@
 \format{
 A data frame
 \describe{
-\item{index}{id}}
+\item{V1}{index number}}
 }
 \source{
 NA

@@ -12,7 +12,7 @@ coronavirus <- coronavirus %>%
   summarise(cases = sum(cases)) 
 
 sta326corona <- coronavirus 
-save(sta326corona, file = "data/sta326corona.rda")
+save(sta326corona, file = "data/sta326corona.rda", compress='xz')
 
 ## Read index numbers
 index2021 <- read.table("data-raw/indexnumbers.txt")

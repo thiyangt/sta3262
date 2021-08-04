@@ -8,8 +8,9 @@ Authors@R:
            email = "ttalagala@sjp.ac.lk",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: STA 326 2.0 Programming and Data Analysis with R course unit assignments.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: GPL-3
+Depends:
+    R (>= 3.5.0)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
