@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of sta3262 is to ...
+Assignments for STA 326 2.0 Programming and Data Analysis
 
 ## Installation
 
@@ -29,7 +29,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 devtools::install_github("thiyangt/sta3262")
 ```
 
-## Example
+## Assignment 1: Help
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -37,6 +37,7 @@ This is a basic example which shows you how to solve a common problem:
 library(sta3262)
 ## basic example code
 mydata <- get_assignment1_data("AS2018000")
+head(mydata)
 ```
 
 ## Data Description
@@ -47,10 +48,9 @@ summary(mydata)
 
 ## Data Visualization
 
-
-```{r b}
-confirmed <- mydata[mydata$type == "confirmed",]
+```r
+confirmed <- mydata[mydata$type=="confirmed", ]
 library(ggplot2)
-qplot(data=confirmed, x=date, y=type, geom="line")
+qplot(data=confirmed, y=cases, x=date, geom="line") + ylab("confirmed cases")
 ```
 
