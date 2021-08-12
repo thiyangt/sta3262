@@ -65,13 +65,20 @@ get_assignment_questions <- function(index){
   set6 <- c(Q14, Q15, Q16)
   
   set.seed(index)
+  a1 = set1
+  a2 = sample(set2, 1)
+  a3 = sample(set3, 1)
+  a4 = sample(set4, 1)
+  a5 = sample(set5, 1)
+  a6 = sample(set6, 1)
+  
   questions <- list(
-    q1 = set1,
-    q2 = sample(set2, 1),
-    q3 = sample(set3, 1),
-    q4 = sample(set4, 1),
-    q5 = sample(set5, 1),
-    q6 = sample(set6, 1)
+    q1 = a1,
+    q2 = a2,
+    q3 = a3,
+    q4 = a4,
+    q5 = a5,
+    q6 = a6
   )
   
   questions
@@ -79,5 +86,5 @@ get_assignment_questions <- function(index){
 }
 #'example
 #'library(sta3262)
-#'get_assignment_questions("2018000") 
+#'get_assignment_questions(2018000) 
 

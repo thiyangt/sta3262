@@ -67,7 +67,7 @@ Write R codes to obtain answers to the questions.
 Example:
 
 ```{r, comment=NA}
-get_assignment_questions("2018000") 
+get_assignment_questions(2018000) 
 
 ```
 

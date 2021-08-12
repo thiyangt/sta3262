@@ -41,7 +41,7 @@ head(mydata)
 ### Assignment 1: questions
 
 ``` r
-get_assignment_questions("2018000") # do no include "AS"
+get_assignment_questions(2018000) # do no include "AS"
 $q1
 [1] "Obtain summary statistics for each variable and interpretresults."
 
