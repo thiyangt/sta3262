@@ -22,7 +22,7 @@ devtools::install_github("thiyangt/sta3262")
 
 This is a basic example which shows you how to solve a common problem:
 
-### Assignment 1: data
+### Assignment 1: Data
 
 ``` r
 library(sta3262)
@@ -38,27 +38,27 @@ head(mydata)
 242070 Sri Lanka 2020-01-23 recovered     0
 ```
 
-### Assignment 1: questions
+### Assignment 1: Questions
 
 ``` r
 get_assignment_questions(2018000) # do no include "AS"
 $q1
-[1] "Obtain summary statistics for each variable and interpretresults."
+[1] "Obtain summary statistics for each variable and interpret the results."
 
 $q2
 [1] "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 death casesover time."
 
 $q3
-[1] "Draw a scatterplot using the qplot to visualize therelationship between Covid-19 confirmed cases and deaths. Compute the corresponding Pearson’s correlation coefficient."
+[1] "Draw a scatterplot using the qplot to visualize the relationship between Covid-19 confirmed cases and deaths. Compute the corresponding Pearson’s correlation coefficient."
 
 $q4
 [1] "In the year 2021, which date has the lowest number of confirmed cases?"
 
 $q5
-[1] "In 2021, which dates are almost the in number of Covid-19 confirmed cases?"
+[1] "In 2021, which dates are almost the same in number of Covid-19 confirmed cases?"
 
 $q6
-[1] "Create a new dataframe called “newcovid”, thatcontains rows of only confirmed cases."
+[1] "Create a new dataframe called “newcovid”, that contains rows of only confirmed cases."
 ```
 
 ## Data Description
