@@ -22,7 +22,7 @@ devtools::install_github("thiyangt/sta3262")
 
 This is a basic example which shows you how to solve a common problem:
 
-### Assignment 1: Data
+### Assignment 1: data
 
 ``` r
 library(sta3262)
@@ -38,7 +38,7 @@ head(mydata)
 242070 Sri Lanka 2020-01-23 recovered     0
 ```
 
-### Assignment 1: Questions
+### Assignment 1: questions
 
 ``` r
 get_assignment_questions(2018000) # do no include "AS"
@@ -55,7 +55,7 @@ $q4
 [1] "In the year 2021, which date has the lowest number of confirmed cases?"
 
 $q5
-[1] "In 2021, which dates are almost the same in number of Covid-19 confirmed cases?"
+[1] "In 2021, which dates are almost the same in the number of Covid-19 confirmed cases?"
 
 $q6
 [1] "Create a new dataframe called “newcovid”, that contains rows of only confirmed cases."

@@ -43,11 +43,11 @@ get_assignment_questions <- function(index){
   Q101 <- "In the year 2021, which date has the highest number of recovered cases?"
   
   #Set 5
-  Q11 <- "In 2021, which dates are almost the same in number of Covid-19 deaths?"
+  Q11 <- "In 2021, which dates are almost the same in the number of Covid-19 deaths?"
   
-  Q12 <- "In 2021, which dates are almost the same in number of Covid-19 confirmed cases?"
+  Q12 <- "In 2021, which dates are almost the same in the number of Covid-19 confirmed cases?"
     
-  Q13 <- "In 2021, which dates are almost the same in number of Covid-19 recovered cases?"
+  Q13 <- "In 2021, which dates are almost the same in the number of Covid-19 recovered cases?"
     
   #Set 6
     
