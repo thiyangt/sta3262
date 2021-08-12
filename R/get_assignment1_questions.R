@@ -11,7 +11,7 @@ get_assignment_questions <- function(index){
   set.seed(index)
   
   #Set 1
-  Q1 <- "Obtain summary statistics for each variable and interpretresults."
+  Q1 <- "Obtain summary statistics for each variable and interpret the results."
   
   #Set 2
   Q2 <- "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 confirmed cases over time."
@@ -22,11 +22,11 @@ get_assignment_questions <- function(index){
   
   #Set 3
   
-  Q5 <- "Draw a scatterplot using the qplot to visualize therelationship between Covid-19 confirmed cases and deaths. Compute the corresponding Pearson’s correlation coefficient."
+  Q5 <- "Draw a scatterplot using the qplot to visualize the relationship between Covid-19 confirmed cases and deaths. Compute the corresponding Pearson’s correlation coefficient."
   
-  Q6 <- "Draw a scatterplot using the qplot to visualize therelationship between Covid-19 confirmed cases and recovered cases. Compute the corresponding Pearson’s correlation coefficient."
+  Q6 <- "Draw a scatterplot using the qplot to visualize the relationship between Covid-19 confirmed cases and recovered cases. Compute the corresponding Pearson’s correlation coefficient."
   
-  Q7 <- "Draw a scatterplot using the qplot to visualize therelationship between Covid-19 death cases and recovered cases. Compute the corresponding Pearson’s correlation coefficient."
+  Q7 <- "Draw a scatterplot using the qplot to visualize the relationship between Covid-19 death cases and recovered cases. Compute the corresponding Pearson’s correlation coefficient."
   
   #Set 4
   
@@ -34,13 +34,13 @@ get_assignment_questions <- function(index){
   
   Q9 <- "In the year 2021, which date has the lowest number of death cases?"
   
-  Q10 <- "In the year 2021, which date has the lowest number of recoveredc ases?"
+  Q10 <- "In the year 2021, which date has the lowest number of recovered cases?"
   
   Q81 <- "In the year 2021, which date has the highest number of confirmed cases?"
   
   Q91 <- "In the year 2021, which date has the highest number of death cases?"
   
-  Q101 <- "In the year 2021, which date has the highest number of recoveredc ases?"
+  Q101 <- "In the year 2021, which date has the highest number of recovered cases?"
   
   #Set 5
   Q11 <- "In 2021, which dates are almost the same in number of Covid-19 deaths?"
@@ -51,11 +51,11 @@ get_assignment_questions <- function(index){
     
   #Set 6
     
-  Q14 <- "Create a new dataframe called “newcovid”, thatcontains rows of only confirmed cases."
+  Q14 <- "Create a new dataframe called “newcovid”, that contains rows of only confirmed cases."
   
-  Q15 <- "Create a new dataframe called “newcovid”, thatcontains rows of only death cases."
+  Q15 <- "Create a new dataframe called “newcovid”, that contains rows of only death cases."
   
-  Q16 <- "Create a new dataframe called “newcovid”, thatcontains rows of only recovered cases."
+  Q16 <- "Create a new dataframe called “newcovid”, that contains rows of only recovered cases."
   
   set1 <- Q1
   set2 <- c(Q2, Q3, Q4)
