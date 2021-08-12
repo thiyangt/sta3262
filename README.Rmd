@@ -33,12 +33,23 @@ devtools::install_github("thiyangt/sta3262")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+### Assignment 1: data
+
+```{r example1}
 library(sta3262)
 ## basic example code
-mydata <- get_assignment1_data("AS2018000")
+mydata <- get_assignment_data("AS2018000")
 head(mydata)
 ```
+
+### Assignment 1: data
+
+```{r example2}
+get_assignment_questions("2018000") # do no include "AS"
+
+```
+
+
 
 ## Data Description
 

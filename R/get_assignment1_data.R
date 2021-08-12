@@ -3,11 +3,11 @@ globalVariables(c("country", "index2021", "sta326corona"))
 #'
 #' load daily summary of the Coronavirus (COVID-19) for the country associated with the index number 
 #' @param index Student's index number. For eg "AS2018000"
-#' @return a dataframe aily summary of the Coronavirus (COVID-19) for the country associated with the index number 
+#' @return a dataframe daily summary of the Coronavirus (COVID-19) for the country associated with the index number 
 #' @importFrom utils globalVariables
 #' @importFrom utils data
 #' @export
-get_assignment1_data <- function(index){
+get_assignment_data <- function(index){
   index2021 <- sta3262::index2021
   sta326corona <- sta3262::sta326corona
   #data("index2021")
@@ -23,5 +23,5 @@ get_assignment1_data <- function(index){
 }
 #'example
 #'library(sta3262)
-#'get_assignment1_data("AS2018000")
+#'get_assignment_data("AS2018000")
 

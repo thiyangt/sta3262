@@ -1,0 +1,78 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# STA 326 2.0 Programming and Data Analysis with R
+
+## Assignment 2 (10 Marks)
+
+## Time-bound examination
+
+## Due date: 16 August 2021, 8.00AM (Sri Lanka Standard Time)
+
+We will NOT accept assignment submissions beyond this time.
+
+Extensions of time for submission are only allowed for the categories mentioned here: 
+
+https://hellor.netlify.app/2021/week0.html#10
+
+
+# Assignment instructions
+
+**Step 1**
+
+Install `devtools` package.
+
+**Step 2**
+
+Type the following code to get access to the `sta3262` package. This package provides access to the assignment documents
+
+```r
+library(devtools)
+devtools::install_github("thiyangt/sta3262")
+
+```
+
+**Step 3**
+
+Load the `sta3262` using the command
+
+```{r, comment=NA}
+library(sta3262)
+```
+
+**Step 4**
+
+Use `get_assignment_data` function to get access to your assignment dataset. The function input is your index nuber.
+
+Example:
+
+```{r, comment=NA, eval=FALSE}
+get_assignment_data("AS2018000") # this displays the dataset
+
+```
+
+
+
+**Step 5** 
+
+Use `get_assignment_questions` function to get access to your assignment questions. The function input is your index number without "AS".
+
+Example:
+
+```{r, comment=NA}
+get_assignment_questions("2018000") 
+
+```
+
+**Step 6**
+
+Submit the following documents
+
+    1. R script file.
+
+    2. both R codes and outputs in a PDF file. Please include your index number and e-signature.
