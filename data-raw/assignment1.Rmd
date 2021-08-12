@@ -47,7 +47,7 @@ library(sta3262)
 
 **Step 4**
 
-Use `get_assignment_data` function to get access to your assignment dataset. The function input is your index nuber.
+Use the `get_assignment_data` function to get access to your assignment dataset. The function input is your index number.
 
 Example:
 
@@ -60,7 +60,9 @@ get_assignment_data("AS2018000") # this displays the dataset
 
 **Step 5** 
 
-Use `get_assignment_questions` function to get access to your assignment questions. The function input is your index number without "AS".
+Use the `get_assignment_questions` function to get access to your assignment questions. The function input is your index number without "AS". 
+
+Write R codes to obtain answers to the questions.
 
 Example:
 
@@ -73,6 +75,6 @@ get_assignment_questions("2018000")
 
 Submit the following documents
 
-    1. R script file.
-
-    2. both R codes and outputs in a PDF file. Please include your index number and e-signature.
+1. R script file containing the R codes.
+    
+2. Upload both R codes and outputs in a PDF file. Please include your index number and e-signature.
