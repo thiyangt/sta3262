@@ -16,7 +16,7 @@ get_assignment_questions <- function(index){
   #Set 2
   Q2 <- "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 confirmed cases over time."
   
-  Q3 <- "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 death casesover time."
+  Q3 <- "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 death cases over time."
   
   Q4 <- "Draw a time series plot using the qplotfunction to visualize changes in Covid-19 recovered cases over time."
   
