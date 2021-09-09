@@ -38,7 +38,7 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example1, comment=NA}
 library(sta3262)
 ## basic example code
-mydata <- get_assignment_data("AS2018000")
+mydata <- get_assignment_data("AS2018000") # Note: enclose index number in ""
 head(mydata)
 ```
 

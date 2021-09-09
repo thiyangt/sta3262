@@ -41,12 +41,12 @@ head(mydata)
 ### Assignment 1: Questions
 
 ``` r
-get_assignment_questions(2018000) # do no include "AS"
+get_assignment_questions(2018000) # Note: do no include "AS"
 $q1
 [1] "Obtain summary statistics for each variable and interpret the results."
 
 $q2
-[1] "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 death casesover time."
+[1] "Draw a timeseries plot using the qplot function to visualize changes in Covid-19 death cases over time."
 
 $q3
 [1] "Draw a scatterplot using the qplot to visualize the relationship between Covid-19 confirmed cases and deaths. Compute the corresponding Pearson’s correlation coefficient."
