@@ -45,7 +45,7 @@ head(mydata)
 ### Assignment 1: Questions
 
 ```{r example2, comment=NA}
-get_assignment_questions(2018000) # do no include "AS"
+get_assignment_questions(2018000) # Note: do no include "AS"
 
 ```
 
