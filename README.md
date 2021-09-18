@@ -86,5 +86,5 @@ qplot(data=confirmed, y=cases, x=date, geom="line") + ylab("confirmed cases")
 
 ``` r
 get_individual_project_country("AS2018000")
-character(0)
+[1] "Suriname"
 ```
