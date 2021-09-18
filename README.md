@@ -18,16 +18,16 @@ You can install the development version from
 devtools::install_github("thiyangt/sta3262")
 ```
 
-## Assignment 1: Help
+## Assignment 2: Help
 
 This is a basic example which shows you how to solve a common problem:
 
-### Assignment 1: Data
+### Assignment 2: Data
 
 ``` r
 library(sta3262)
 ## basic example code
-mydata <- get_assignment_data("AS2018000")
+mydata <- get_assignment_data("AS2018000") # Note: enclose index number in ""
 head(mydata)
          country       date      type cases
 242065 Sri Lanka 2020-01-22 confirmed     0
@@ -38,7 +38,7 @@ head(mydata)
 242070 Sri Lanka 2020-01-23 recovered     0
 ```
 
-### Assignment 1: Questions
+### Assignment 2: Questions
 
 ``` r
 get_assignment_questions(2018000) # Note: do no include "AS"
@@ -80,4 +80,11 @@ summary(mydata)
 confirmed <- mydata[mydata$type=="confirmed", ]
 library(ggplot2)
 qplot(data=confirmed, y=cases, x=date, geom="line") + ylab("confirmed cases")
+```
+
+## Assignment 3: Individual Project
+
+``` r
+get_individual_project_country("AS2018000")
+character(0)
 ```

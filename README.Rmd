@@ -29,11 +29,11 @@ You can install the development version from [GitHub](https://github.com/) with:
 devtools::install_github("thiyangt/sta3262")
 ```
 
-## Assignment 1: Help
+## Assignment 2: Help
 
 This is a basic example which shows you how to solve a common problem:
 
-### Assignment 1: Data
+### Assignment 2: Data
 
 ```{r example1, comment=NA}
 library(sta3262)
@@ -42,7 +42,7 @@ mydata <- get_assignment_data("AS2018000") # Note: enclose index number in ""
 head(mydata)
 ```
 
-### Assignment 1: Questions
+### Assignment 2: Questions
 
 ```{r example2, comment=NA}
 get_assignment_questions(2018000) # Note: do no include "AS"
@@ -65,3 +65,8 @@ library(ggplot2)
 qplot(data=confirmed, y=cases, x=date, geom="line") + ylab("confirmed cases")
 ```
 
+## Assignment 3: Individual Project
+
+```{r, comment=NA}
+get_individual_project_country("AS2018000")
+```

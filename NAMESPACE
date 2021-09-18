@@ -2,5 +2,6 @@
 
 export(get_assignment_data)
 export(get_assignment_questions)
+export(get_individual_project_country)
 importFrom(utils,data)
 importFrom(utils,globalVariables)
