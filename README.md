@@ -82,7 +82,7 @@ library(ggplot2)
 qplot(data=confirmed, y=cases, x=date, geom="line") + ylab("confirmed cases")
 ```
 
-## Assignment 3: Individual Project
+## Assignment 3: Individual Project COVID-19 Data Analysis
 
 ``` r
 get_individual_project_country("AS2018000")
