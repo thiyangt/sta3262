@@ -52,9 +52,9 @@ i1 <- index2021$V1 %in% unenrol
 indexindividual <- index2021$V1[!i1]
 length(indexindividual)
 
-indexindividual2 <- c(unique(indexindividual), "AS2018000")
+indexindividual2 <- c(unique(indexindividual), "AS2018000", "AS2018357")
 tail(indexindividual2)
-length(indexindividual2)
+length(indexindividual2) #138
 
 ipcountry <- list(index=indexindividual2, country=country.name)
 save(ipcountry, file="data/ipcountry.rda")

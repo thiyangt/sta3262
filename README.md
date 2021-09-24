@@ -3,6 +3,8 @@
 
 # sta3262
 
+## Programming and Data Analysis with R
+
 <!-- badges: start -->
 <!-- badges: end -->
 
