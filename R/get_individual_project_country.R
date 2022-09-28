@@ -8,9 +8,9 @@ globalVariables(c("country", "index", "ipcountry"))
 #' @importFrom utils data
 #' @export
 get_individual_project_country <- function(index){
-  sta3262::ipcountry
-  position <- which(ipcountry$index==index)
-  yourdata <- ipcountry$country[position]
+  sta3262::ipcountry2022
+  position <- which(ipcountry2022$index==index)
+  yourdata <- ipcountry2022$country[position]
   yourdata
 }
 #'example
