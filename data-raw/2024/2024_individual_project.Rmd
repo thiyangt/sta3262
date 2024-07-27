@@ -6,7 +6,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# STA 326 2.0/ ASP 454 2.0/ CSC 381 2.0 Programming and Data ANalysis with R
+# STA 326 2.0/ ASP 454 2.0/ CSC 381 2.0 Programming and Data Analysis with R
 
 ## Mid Semester Examination Assignment  - 30 Marks
 
@@ -56,17 +56,17 @@ To view your country,
 get_individual_project_country("AS2021000") # type your index no. within ""
 ```
 
-**Please send me an email if your index number is not in the list or if the function outputs** character(0).
+**Please send me an email if your index number is not in the list or if the function outputs** character(0) before July 29, 2024.
 
 ### 2. To obtain coronavirus data corresponds to your country
 
 ```r
 install.packages("coronavirus")
 library(coronavirus)
+data("coronavirus")
 ```
 
-You can download coronavirus data from the coronavirus package in R. This help file here https://hellor.netlify.app/slides/coronavirus_assignment_help_file
-gives some useful hints on how to extract and visualise relevant data from the package. 
+You can download coronavirus data from the coronavirus package in R.  Filter necessary data.
 
 
 ### 3. Project content:
@@ -83,18 +83,15 @@ iii. Conclusions and Discussion
 
 iv. References
 
-Please click here to view the last year reports: https://hellor.netlify.app/coronareports/
-
-You are not allowed to copy the content of this site.
 
 Please do not include any external images.
 
 ### 4. Marks
 
 
-Content: 30 Marks (Data Analysis and interpretation 20, Overall format - 10)
+- Content: 30 Marks (Data Analysis and interpretation 20, Overall format - 10)
 
-
+- Reports that are AI-generated or plagiarized will receive zero marks.
 
 ### 5. Submission
 
@@ -103,9 +100,49 @@ Please submit .rmd file and .html file. Please name the files using your index n
 
 Example: AS2021000.rmd and AS2021000.html
 
+- Upload both the HTML and RMarkdown files to the LMS and Google Classroom.
+
 
 ### 5. Deadline
 
 2 August 2024, 8.00AM (IST)
+
+It is the student’s responsibility to manage their time effectively to ensure that they have enough time to complete the assignment within the given timeframe. This includes allocating enough time to research, plan, and write the assignment, as well as allowing for unexpected circumstances or delays. It is important for students to plan their workload and prioritize their assignments to ensure that they are able to complete them on time and to the best of their ability.
+
+**Late submission:** Submitting late work will be penalized by 1 mark per day. I will not accept any submissions after August 5, 2024.
+
+**Extensions will be made in exceptional circumstances only.**
+
+## Requesting a deadline extension
+
+> You are allowed to apply for a deadline extension for the assignment under the following conditions only.
+
+**Category A**
+
+An illness that requires the student to miss all of his or her classes for 2 days or more.
+
+**Category B**
+
+A period of grief for the loss of a family member or friend.
+
+**Category C**
+
+A family emergency.
+
+Valid documentation of proof is required **prior** to the assignment deadline.
+
+The philosophy driving our late policy has three goals
+
+-   Keep things fair.
+
+-   Encourage good time management.
+
+-   Encouragement and appreciation of on-time submission students.
+
+Please submit your request along with the necessary evidence on or before August 1, 2024.
+
+## Help Desk
+
+If you have any questions, please feel free to seek clarification during the practical session on Monday, July 29, 2024.
 
 
