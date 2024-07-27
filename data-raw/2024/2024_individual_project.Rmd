@@ -1,0 +1,111 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# STA 326 2.0/ ASP 454 2.0/ CSC 381 2.0 Programming and Data ANalysis with R
+
+## Mid Semester Examination Assignment  - 30 Marks
+
+
+### Individual project: Coronavirus country report
+
+The project represents 30% of your final grade for STA 326 2.0/ ASP 454 2.0/ CSC 381 2.0.
+
+### 1. Guidelines
+
+I have assigned a country to each of you. You need to write a brief report by analyzing coronavirus data for the country that I have assigned. The report should be written in Rmarkdown and the output format should be HTML. 
+
+In order to view name of the country corresponds to your index number use the steps give below:
+
+**Step 1**
+
+Install `devtools` package.
+
+```r
+install.packages("devtools")
+```
+
+**Step 2**
+
+Type the following code to get access to the `sta3262` package. This package provides a function to view the country. Please note that you may have  `sta3262` already installed in to your machine. However, you should reinstall `sta3262` in order to get access to the updated information.
+
+```r
+library(devtools)
+devtools::install_github("thiyangt/sta3262")
+
+```
+
+**Step 3**
+
+Load the `sta3262` using the command
+
+```{r, comment=NA}
+library(sta3262)
+```
+
+
+**Step 4**
+
+To view your country, 
+
+```{r, comment=NA, eval=FALSE}
+get_individual_project_country("AS2021000") # type your index no. within ""
+```
+
+**Please send me an email if your index number is not in the list or if the function outputs** character(0).
+
+### 2. To obtain coronavirus data corresponds to your country
+
+```r
+install.packages("coronavirus")
+library(coronavirus)
+```
+
+You can download coronavirus data from the coronavirus package in R. This help file here https://hellor.netlify.app/slides/coronavirus_assignment_help_file
+gives some useful hints on how to extract and visualise relevant data from the package. 
+
+
+### 3. Project content:
+
+i. Brief introduction of the country:
+
+ii. Exploratory Data Analysis
+
+-	Visualization of death, confirmed, recovered, active cases
+-	Comparison with other countries
+-	etc
+
+iii. Conclusions and Discussion
+
+iv. References
+
+Please click here to view the last year reports: https://hellor.netlify.app/coronareports/
+
+You are not allowed to copy the content of this site.
+
+Please do not include any external images.
+
+### 4. Marks
+
+
+Content: 30 Marks (Data Analysis and interpretation 20, Overall format - 10)
+
+
+
+### 5. Submission
+
+
+Please submit .rmd file and .html file. Please name the files using your index number.
+
+Example: AS2021000.rmd and AS2021000.html
+
+
+### 5. Deadline
+
+2 August 2024, 8.00AM (IST)
+
+
