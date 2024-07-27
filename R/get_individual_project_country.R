@@ -1,4 +1,4 @@
-globalVariables(c("country", "index", "ipcountry"))
+globalVariables(c("country", "index2024", "ipcountry", "ipcountry2024"))
 #' load the corresponding data set given the index number
 #'
 #' load daily summary of the Coronavirus (COVID-19) for the country associated with the index number 
